@@ -13,6 +13,7 @@ const CustomWebcam = () => {
 
 
   const retake = () => {
+    
     setImgSrc(null);
   };
 
