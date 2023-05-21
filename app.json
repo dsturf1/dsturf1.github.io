@@ -1,0 +1,150 @@
+{
+    "apps": [
+        {
+            "appId": "d2iczkqrzihgas",
+            "appArn": "arn:aws:amplify:us-east-1:493135454326:apps/d2iczkqrzihgas",
+            "name": "dsworkdev",
+            "tags": {},
+            "repository": "https://github.com/dsturf1/dsworkdev",
+            "platform": "WEB",
+            "createTime": "2023-05-14T14:47:34.210000+09:00",
+            "updateTime": "2023-05-14T14:48:56.113000+09:00",
+            "iamServiceRoleArn": "arn:aws:iam::493135454326:role/amplify-dswork",
+            "environmentVariables": {
+                "_LIVE_UPDATES": "[{\"name\":\"Amplify CLI\",\"pkg\":\"@aws-amplify/cli\",\"type\":\"npm\",\"version\":\"latest\"}]"
+            },
+            "defaultDomain": "d2iczkqrzihgas.amplifyapp.com",
+            "enableBranchAutoBuild": false,
+            "enableBranchAutoDeletion": false,
+            "enableBasicAuth": false,
+            "customRules": [],
+            "productionBranch": {
+                "lastDeployTime": "2023-05-19T14:24:41.971000+09:00",
+                "status": "SUCCEED",
+                "branchName": "main"
+            },
+            "buildSpec": "version: 1\nbackend:\n  phases:\n    build:\n      commands:\n        - '# Execute Amplify CLI with the helper script'\n        - amplifyPush --simple\nfrontend:\n  phases:\n    preBuild:\n      commands:\n        - npm ci\n    build:\n      commands:\n        - npm run build\n  artifacts:\n    baseDirectory: build\n    files:\n      - '**/*'\n  cache:\n    paths:\n      - node_modules/**/*\n",
+            "customHeaders": "",
+            "enableAutoBranchCreation": false,
+            "repositoryCloneMethod": "TOKEN"
+        },
+        {
+            "appId": "d37r846ym4p7fp",
+            "appArn": "arn:aws:amplify:us-east-1:493135454326:apps/d37r846ym4p7fp",
+            "name": "dsworkweb",
+            "tags": {},
+            "repository": "https://github.com/dsturf1/dsworkweb",
+            "platform": "WEB",
+            "createTime": "2023-05-13T14:26:55.502000+09:00",
+            "updateTime": "2023-05-13T14:32:53.653000+09:00",
+            "iamServiceRoleArn": "arn:aws:iam::493135454326:role/amplify-dswork",
+            "environmentVariables": {
+                "_LIVE_UPDATES": "[{\"name\":\"Amplify CLI\",\"pkg\":\"@aws-amplify/cli\",\"type\":\"npm\",\"version\":\"latest\"}]"
+            },
+            "defaultDomain": "d37r846ym4p7fp.amplifyapp.com",
+            "enableBranchAutoBuild": false,
+            "enableBranchAutoDeletion": false,
+            "enableBasicAuth": false,
+            "customRules": [],
+            "productionBranch": {
+                "lastDeployTime": "2023-05-13T14:38:02.855000+09:00",
+                "status": "SUCCEED",
+                "branchName": "main"
+            },
+            "buildSpec": "version: 1\nbackend:\n  phases:\n    build:\n      commands:\n        - '# Execute Amplify CLI with the helper script'\n        - amplifyPush --simple\nfrontend:\n  phases:\n    preBuild:\n      commands:\n        - npm ci\n    build:\n      commands:\n        - npm run build\n  artifacts:\n    baseDirectory: build\n    files:\n      - '**/*'\n  cache:\n    paths:\n      - node_modules/**/*\n",
+            "customHeaders": "",
+            "enableAutoBranchCreation": false,
+            "repositoryCloneMethod": "TOKEN"
+        },
+        {
+            "appId": "d3umcz98uv4clk",
+            "appArn": "arn:aws:amplify:us-east-1:493135454326:apps/d3umcz98uv4clk",
+            "name": "dsworkwebdev",
+            "tags": {},
+            "repository": "https://github.com/dsturf1/dsworkwebdev",
+            "platform": "WEB",
+            "createTime": "2023-05-13T14:15:24.427000+09:00",
+            "updateTime": "2023-05-13T14:21:55.226000+09:00",
+            "iamServiceRoleArn": "arn:aws:iam::493135454326:role/amplify-dswork",
+            "environmentVariables": {
+                "_LIVE_UPDATES": "[{\"name\":\"Amplify CLI\",\"pkg\":\"@aws-amplify/cli\",\"type\":\"npm\",\"version\":\"latest\"},{\"name\":\"Amplify CLI\",\"pkg\":\"@aws-amplify/cli\",\"type\":\"npm\",\"version\":\"latest\"}]"
+            },
+            "defaultDomain": "d3umcz98uv4clk.amplifyapp.com",
+            "enableBranchAutoBuild": false,
+            "enableBranchAutoDeletion": false,
+            "enableBasicAuth": false,
+            "customRules": [],
+            "productionBranch": {
+                "lastDeployTime": "2023-05-17T09:10:24.553000+09:00",
+                "status": "SUCCEED",
+                "branchName": "main"
+            },
+            "buildSpec": "version: 1\nbackend:\n  phases:\n    build:\n      commands:\n        - '# Execute Amplify CLI with the helper script'\n        - amplifyPush --simple\nfrontend:\n  phases:\n    preBuild:\n      commands:\n        - npm ci\n    build:\n      commands:\n        - npm run build\n  artifacts:\n    baseDirectory: build\n    files:\n      - '**/*'\n  cache:\n    paths:\n      - node_modules/**/*\n",
+            "customHeaders": "",
+            "enableAutoBranchCreation": false,
+            "repositoryCloneMethod": "TOKEN"
+        },
+        {
+            "appId": "dgba50e8gtekz",
+            "appArn": "arn:aws:amplify:us-east-1:493135454326:apps/dgba50e8gtekz",
+            "name": "dswork",
+            "tags": {},
+            "repository": "https://github.com/dsturf1/dswork",
+            "platform": "WEB",
+            "createTime": "2023-03-07T10:21:40.855000+09:00",
+            "updateTime": "2023-04-03T10:22:41.653000+09:00",
+            "iamServiceRoleArn": "arn:aws:iam::493135454326:role/amplify-dswork",
+            "environmentVariables": {
+                "_LIVE_UPDATES": "[{\"name\":\"Amplify CLI\",\"pkg\":\"@aws-amplify/cli\",\"type\":\"npm\",\"version\":\"latest\"}]"
+            },
+            "defaultDomain": "dgba50e8gtekz.amplifyapp.com",
+            "enableBranchAutoBuild": false,
+            "enableBranchAutoDeletion": false,
+            "enableBasicAuth": false,
+            "customRules": [
+                {
+                    "source": "https://dsgreen.net",
+                    "target": "https://www.dsgreen.net",
+                    "status": "302"
+                }
+            ],
+            "productionBranch": {
+                "lastDeployTime": "2023-05-14T12:35:58.039000+09:00",
+                "status": "SUCCEED",
+                "branchName": "main"
+            },
+            "buildSpec": "version: 1\nfrontend:\n  phases:\n    preBuild:\n      commands:\n        - npm ci\n    build:\n      commands:\n        - npm run build\n  artifacts:\n    baseDirectory: build\n    files:\n      - '**/*'\n  cache:\n    paths:\n      - node_modules/**/*\n",
+            "customHeaders": "",
+            "enableAutoBranchCreation": false,
+            "repositoryCloneMethod": "TOKEN"
+        },
+        {
+            "appId": "dsd96wtoocbc8",
+            "appArn": "arn:aws:amplify:us-east-1:493135454326:apps/dsd96wtoocbc8",
+            "name": "dsoutweb",
+            "tags": {},
+            "repository": "https://github.com/dsturf1/dsoutweb",
+            "platform": "WEB",
+            "createTime": "2023-05-13T14:34:14.136000+09:00",
+            "updateTime": "2023-05-13T14:41:25.100000+09:00",
+            "iamServiceRoleArn": "arn:aws:iam::493135454326:role/amplify-dswork",
+            "environmentVariables": {
+                "_LIVE_UPDATES": "[{\"name\":\"Amplify CLI\",\"pkg\":\"@aws-amplify/cli\",\"type\":\"npm\",\"version\":\"latest\"}]"
+            },
+            "defaultDomain": "dsd96wtoocbc8.amplifyapp.com",
+            "enableBranchAutoBuild": false,
+            "enableBranchAutoDeletion": false,
+            "enableBasicAuth": false,
+            "customRules": [],
+            "productionBranch": {
+                "lastDeployTime": "2023-05-13T14:42:58.745000+09:00",
+                "status": "FAILED",
+                "branchName": "main"
+            },
+            "buildSpec": "version: 1\nbackend:\n  phases:\n    build:\n      commands:\n        - '# Execute Amplify CLI with the helper script'\n        - amplifyPush --simple\nfrontend:\n  phases:\n    preBuild:\n      commands:\n        - npm ci\n    build:\n      commands:\n        - npm run build\n  artifacts:\n    baseDirectory: build\n    files:\n      - '**/*'\n  cache:\n    paths:\n      - node_modules/**/*\n",
+            "customHeaders": "",
+            "enableAutoBranchCreation": false,
+            "repositoryCloneMethod": "TOKEN"
+        }
+    ]
+}
